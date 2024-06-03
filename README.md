@@ -29,3 +29,6 @@ Transfer
 
 Second part of transfer
 ![Second part of transfer](./assets/images/second_part_of_transfer.png)
+
+## Notes
+The issue seems odly familiar to https://github.com/embassy-rs/embassy/issues/1094
