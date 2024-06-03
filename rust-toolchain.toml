@@ -1,0 +1,18 @@
+[toolchain]
+channel = "nightly-2024-05-27"
+components = [
+	"rust-src",
+	"clippy",
+	"cargo",
+	"rustfmt",
+	"rust-analyzer",
+	"rust-docs",
+]
+# targets = ["thumbv7em-none-eabi"]
+targets = ["thumbv7em-none-eabihf"]
+
+# Note:
+# If you encounter the error where compilation fails with ther target being missing
+# You might have to build using `-Zbuild-std`
+
+# Dont forget to follow: https://probe.rs/docs/getting-started/probe-setup/#linux%3A-udev-rules
